@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARIA CHEN — Content Creator & Influencer</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Aria Chen — Fashion, Travel & Lifestyle Content Creator. Collaborations, portfolio and contact." />
+  <meta name="keywords" content="Instagram influencer, portfolio, content creator, fashion blogger, lifestyle" />
+  <meta name="author" content="Aria Chen" />
+  <meta property="og:title" content="ARIA CHEN — Content Creator" />
+  <meta property="og:description" content="Fashion, Travel & Lifestyle Influencer based in NYC" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Swiper.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== CURSOR ========== -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">ARIA.</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#feed">Feed</a></li>
+      <li><a href="#stats">Stats</a></li>
+      <li><a href="#collaborations">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-sun" id="theme-icon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-grain"></div>
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow fade-up">✦ Based in New York City</div>
+
+      <div class="hero-profile-wrap fade-up delay-1">
+        <div class="hero-profile-ring"></div>
+        <img
+          src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=400&fit=crop&crop=face"
+          alt="Aria Chen"
+          class="hero-profile-img"
+          loading="lazy"
+        />
+        <div class="hero-verified"><i class="fas fa-check"></i></div>
+      </div>
+
+      <h1 class="hero-name fade-up delay-2">
+        <span class="hero-name-light">Aria</span>
+        <span class="hero-name-serif">Chen</span>
+      </h1>
+
+      <p class="hero-tagline fade-up delay-3">Fashion · Travel · Lifestyle</p>
+
+      <div class="hero-followers fade-up delay-4">
+        <div class="follower-stat">
+          <span class="follower-num">2.4M</span>
+          <span class="follower-label">Followers</span>
+        </div>
+        <div class="follower-divider"></div>
+        <div class="follower-stat">
+          <span class="follower-num">8.7%</span>
+          <span class="follower-label">Engagement</span>
+        </div>
+        <div class="follower-divider"></div>
+        <div class="follower-stat">
+          <span class="follower-num">4 yrs</span>
+          <span class="follower-label">Creating</span>
+        </div>
+      </div>
+
+      <div class="hero-cta fade-up delay-5">
+        <a href="https://instagram.com" target="_blank" class="btn-primary">
+          <i class="fab fa-instagram"></i> Follow on Instagram
+        </a>
+        <a href="#contact" class="btn-outline">Let's Collaborate</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images fade-left">
+          <div class="about-img-main">
+            <img
+              src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500&h=650&fit=crop"
+              alt="Aria fashion shoot"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-img-accent">
+            <img
+              src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=300&h=400&fit=crop"
+              alt="Aria travel"
+              loading="lazy"
+            />
+            <div class="about-badge">
+              <span class="badge-num">350+</span>
+              <span class="badge-text">Brand Deals</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text fade-right">
+          <div class="section-label">— About Me</div>
+          <h2 class="section-title">
+            Crafting moments<br />
+            <em>worth sharing</em>
+          </h2>
+          <p class="about-bio">
+            I'm Aria — a NYC-based lifestyle curator obsessed with intentional aesthetics and authentic storytelling. What started as a personal diary of travels and outfits evolved into a community of 2.4 million people who believe in living beautifully.
+          </p>
+          <p class="about-bio">
+            My content spans fashion editorials, travel diaries, wellness rituals, and the honest in-betweens that make life real. I partner exclusively with brands that align with my values — quality, sustainability, and genuine beauty.
+          </p>
+
+          <div class="about-niches">
+            <span class="niche-tag">✦ Fashion</span>
+            <span class="niche-tag">✦ Travel</span>
+            <span class="niche-tag">✦ Wellness</span>
+            <span class="niche-tag">✦ Beauty</span>
+            <span class="niche-tag">✦ Lifestyle</span>
+          </div>
+
+          <div class="about-achievements">
+            <div class="achievement">
+              <i class="fas fa-award"></i>
+              <div>
+                <strong>Forbes 30 Under 30</strong>
+                <span>Media & Marketing — 2023</span>
+              </div>
+            </div>
+            <div class="achievement">
+              <i class="fas fa-star"></i>
+              <div>
+                <strong>Vogue Feature</strong>
+                <span>Digital Creators to Watch — 2024</span>
+              </div>
+            </div>
+            <div class="achievement">
+              <i class="fas fa-trophy"></i>
+              <div>
+                <strong>Shorty Award Nominee</strong>
+                <span>Best Fashion Influencer — 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INSTAGRAM FEED ========== -->
+  <section class="feed" id="feed">
+    <div class="container">
+      <div class="section-header centered fade-up">
+        <div class="section-label">— Instagram Feed</div>
+        <h2 class="section-title">Latest <em>Posts</em></h2>
+        <p class="section-sub">A glimpse into my world — follow along for daily updates</p>
+      </div>
+
+      <div class="feed-grid fade-up delay-1" id="feedGrid">
+        <!-- Feed items injected by JS -->
+      </div>
+
+      <div class="feed-cta fade-up delay-2">
+        <a href="https://instagram.com" target="_blank" class="btn-outline">
+          <i class="fab fa-instagram"></i> View Full Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats" id="stats">
+    <div class="stats-inner">
+      <div class="stats-label fade-up">By the numbers</div>
+      <div class="stats-grid">
+        <div class="stat-card fade-up delay-1">
+          <div class="stat-icon"><i class="fas fa-users"></i></div>
+          <div class="stat-value" data-target="2400000">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-name">Total Followers</div>
+        </div>
+        <div class="stat-card fade-up delay-2">
+          <div class="stat-icon"><i class="fas fa-heart"></i></div>
+          <div class="stat-value" data-target="8.7" data-decimal="1">0</div>
+          <div class="stat-suffix">%</div>
+          <div class="stat-name">Engagement Rate</div>
+        </div>
+        <div class="stat-card fade-up delay-3">
+          <div class="stat-icon"><i class="fas fa-eye"></i></div>
+          <div class="stat-value" data-target="15">0</div>
+          <div class="stat-suffix">M+</div>
+          <div class="stat-name">Monthly Reach</div>
+        </div>
+        <div class="stat-card fade-up delay-4">
+          <div class="stat-icon"><i class="fas fa-play-circle"></i></div>
+          <div class="stat-value" data-target="48">0</div>
+          <div class="stat-suffix">M</div>
+          <div class="stat-name">Reel Views / Month</div>
+        </div>
+        <div class="stat-card fade-up delay-5">
+          <div class="stat-icon"><i class="fas fa-handshake"></i></div>
+          <div class="stat-value" data-target="350">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-name">Brand Campaigns</div>
+        </div>
+        <div class="stat-card fade-up delay-6">
+          <div class="stat-icon"><i class="fas fa-globe"></i></div>
+          <div class="stat-value" data-target="62">0</div>
+          <div class="stat-suffix"></div>
+          <div class="stat-name">Countries Reached</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COLLABORATIONS ========== -->
+  <section class="collaborations" id="collaborations">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-label">— Brand Collaborations</div>
+        <h2 class="section-title">Trusted by the<br /><em>world's best brands</em></h2>
+      </div>
+
+      <!-- Brand Logos -->
+      <div class="brands-marquee fade-up delay-1">
+        <div class="brands-track">
+          <div class="brand-logo">CHANEL</div>
+          <div class="brand-logo">Dior</div>
+          <div class="brand-logo">ZARA</div>
+          <div class="brand-logo">H&M</div>
+          <div class="brand-logo">GUCCI</div>
+          <div class="brand-logo">Sephora</div>
+          <div class="brand-logo">NIKE</div>
+          <div class="brand-logo">Airbnb</div>
+          <!-- Duplicate for infinite scroll -->
+          <div class="brand-logo">CHANEL</div>
+          <div class="brand-logo">Dior</div>
+          <div class="brand-logo">ZARA</div>
+          <div class="brand-logo">H&M</div>
+          <div class="brand-logo">GUCCI</div>
+          <div class="brand-logo">Sephora</div>
+          <div class="brand-logo">NIKE</div>
+          <div class="brand-logo">Airbnb</div>
+        </div>
+      </div>
+
+      <!-- Case Studies -->
+      <div class="case-studies fade-up delay-2">
+        <div class="case-card">
+          <div class="case-brand">ZARA × Aria Chen</div>
+          <div class="case-campaign">Spring/Summer '24 Campaign</div>
+          <div class="case-metrics">
+            <div class="case-metric"><span>4.2M</span>Impressions</div>
+            <div class="case-metric"><span>12%</span>Click Rate</div>
+            <div class="case-metric"><span>$2.8M</span>Revenue Driven</div>
+          </div>
+        </div>
+        <div class="case-card featured">
+          <div class="case-tag">Featured</div>
+          <div class="case-brand">Sephora × Aria Chen</div>
+          <div class="case-campaign">Holiday Beauty Collection</div>
+          <div class="case-metrics">
+            <div class="case-metric"><span>8.1M</span>Impressions</div>
+            <div class="case-metric"><span>18%</span>Click Rate</div>
+            <div class="case-metric"><span>$5.4M</span>Revenue Driven</div>
+          </div>
+        </div>
+        <div class="case-card">
+          <div class="case-brand">Airbnb × Aria Chen</div>
+          <div class="case-campaign">Dream Destinations Series</div>
+          <div class="case-metrics">
+            <div class="case-metric"><span>6.7M</span>Impressions</div>
+            <div class="case-metric"><span>9%</span>Click Rate</div>
+            <div class="case-metric"><span>14K</span>Bookings</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials Slider -->
+      <div class="testimonials-wrap fade-up delay-3">
+        <div class="section-label centered">— What brands say</div>
+        <div class="swiper testimonials-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <div class="testimonial-quote">"</div>
+                <p>Aria's ability to authentically weave our products into her narrative is unmatched. Our ROAS for her campaigns consistently outperforms every other influencer partnership we've run.</p>
+                <div class="testimonial-author">
+                  <strong>Emma Richardson</strong>
+                  <span>Head of Digital Marketing, Sephora</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <div class="testimonial-quote">"</div>
+                <p>Working with Aria felt like a true creative collaboration. She brought ideas we hadn't considered, elevated the visual direction, and delivered results beyond our KPIs.</p>
+                <div class="testimonial-author">
+                  <strong>Lucas Morel</strong>
+                  <span>Brand Partnerships Director, ZARA</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <div class="testimonial-quote">"</div>
+                <p>Aria's travel content for Airbnb generated our highest-ever organic engagement from an influencer activation. Her audience trusts her — and that trust is priceless.</p>
+                <div class="testimonial-author">
+                  <strong>Priya Nair</strong>
+                  <span>Influencer Marketing Lead, Airbnb</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header centered fade-up">
+        <div class="section-label">— Services & Pricing</div>
+        <h2 class="section-title">What I <em>offer</em></h2>
+        <p class="section-sub">Tailored content packages to amplify your brand story</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card fade-up delay-1">
+          <div class="service-icon"><i class="fas fa-camera"></i></div>
+          <h3>Sponsored Posts</h3>
+          <p>Editorial-quality photography integrated naturally into my feed. Minimum 1-week exclusive window.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> 1 feed post + 3 stories</li>
+            <li><i class="fas fa-check"></i> Professional photography</li>
+            <li><i class="fas fa-check"></i> Caption + hashtag strategy</li>
+            <li><i class="fas fa-check"></i> 30-day performance report</li>
+          </ul>
+          <div class="service-price">
+            <span class="price-from">From</span>
+            <span class="price-amount">$8,500</span>
+          </div>
+          <a href="#contact" class="btn-service">Inquire Now</a>
+        </div>
+
+        <div class="service-card featured fade-up delay-2">
+          <div class="service-popular">Most Popular</div>
+          <div class="service-icon"><i class="fas fa-video"></i></div>
+          <h3>Reels Creation</h3>
+          <p>Cinematic short-form video production — scripted, directed, and edited by my in-house team.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> 60-90 second Reel</li>
+            <li><i class="fas fa-check"></i> Full creative direction</li>
+            <li><i class="fas fa-check"></i> 2 rounds of revisions</li>
+            <li><i class="fas fa-check"></i> Cross-platform repurposing</li>
+            <li><i class="fas fa-check"></i> Paid boosting available</li>
+          </ul>
+          <div class="service-price">
+            <span class="price-from">From</span>
+            <span class="price-amount">$14,000</span>
+          </div>
+          <a href="#contact" class="btn-service">Inquire Now</a>
+        </div>
+
+        <div class="service-card fade-up delay-3">
+          <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+          <h3>Brand Ambassador</h3>
+          <p>Long-term partnership for authentic, ongoing brand integration across all my channels.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> 3–12 month packages</li>
+            <li><i class="fas fa-check"></i> Exclusive brand territory</li>
+            <li><i class="fas fa-check"></i> Monthly content calendar</li>
+            <li><i class="fas fa-check"></i> Event appearances</li>
+          </ul>
+          <div class="service-price">
+            <span class="price-from">From</span>
+            <span class="price-amount">$45,000/mo</span>
+          </div>
+          <a href="#contact" class="btn-service">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info fade-left">
+          <div class="section-label">— Let's Talk</div>
+          <h2 class="section-title">Ready to create<br /><em>something great?</em></h2>
+          <p class="contact-sub">I respond to all business inquiries within 24 hours. For urgent projects, reach me directly by email.</p>
+
+          <a href="mailto:hello@ariachen.com" class="contact-email-cta">
+            <i class="fas fa-envelope"></i>
+            hello@ariachen.com
+          </a>
+
+          <div class="contact-socials">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap fade-right">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="company">Company / Brand</label>
+              <input type="text" id="company" name="company" placeholder="Your brand name (optional)" />
+            </div>
+            <div class="form-group">
+              <label for="message">Tell me about your project</label>
+              <textarea id="message" name="message" rows="5" placeholder="Describe your campaign, goals, timeline…"></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn-primary btn-full">
+              <span class="btn-text">Send Message</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i> Your message has been sent! I'll be in touch within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">ARIA.</div>
+          <p>Content creator &amp; brand collaborator<br />based in New York City.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <a href="#about">About</a>
+            <a href="#feed">Instagram Feed</a>
+            <a href="#stats">Statistics</a>
+            <a href="#collaborations">Collaborations</a>
+          </div>
+          <div class="footer-col">
+            <h4>Work With Me</h4>
+            <a href="#services">Sponsored Posts</a>
+            <a href="#services">Reel Creation</a>
+            <a href="#services">Brand Ambassador</a>
+            <a href="#contact">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Aria Chen. All rights reserved.</span>
+        <span>Crafted with <i class="fas fa-heart"></i> in NYC</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+
+  <!-- Swiper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
